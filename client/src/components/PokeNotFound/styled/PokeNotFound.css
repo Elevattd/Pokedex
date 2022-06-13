@@ -1,0 +1,10 @@
+.error-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 30%;
+}

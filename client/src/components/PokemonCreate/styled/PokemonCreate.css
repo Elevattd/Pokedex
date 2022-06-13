@@ -1,0 +1,123 @@
+.page-container {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 10%;
+}
+.form-container {
+	max-width: 500px;
+	background-color: #eee;
+	margin: 3rem auto;
+
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	padding: 20px;
+
+	text-align: center;
+	border-radius: 1rem;
+	background-position: right -1.5rem top -1.5rem;
+	background-size: 33rem;
+	font-family: 'Quicksand', sans-serif;
+}
+.form-input {
+	width: 90%;
+}
+
+.form-input p {
+	margin-top: -0.4rem;
+	display: flex;
+	padding-left: 1rem;
+	justify-content: flex-start;
+	color: grey;
+	font-size: 12px;
+	margin-bottom: 0.7rem;
+}
+.error-msg {
+	margin: auto;
+	margin-left: 2rem;
+	margin-bottom: 2.5rem;
+}
+.error-msg > p {
+	background-color: black;
+	width: 10px;
+	font-size: 12px;
+}
+
+.title-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: inherit;
+	border-radius: inherit;
+	padding: 109px 6px 45px 16px;
+}
+.title {
+	color: black;
+	text-align: center;
+	margin: -80px 10px 10px 5px;
+}
+
+.div-form-container {
+	border-radius: 2rem 2rem 1rem 1rem;
+	border: 2px solid rgba(100, 100, 100, 0.5);
+	background-color: white;
+}
+.inputs-container {
+	margin-top: 2.3rem;
+}
+
+.div-form {
+	border: 0 none;
+	border-radius: 3px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	position: relative;
+	display: flex;
+}
+
+.div-form input,
+textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: 'quicksand', sans-serif;
+	color: #2c3e50;
+	font-size: 13px;
+}
+
+.btn-submit {
+	width: 100px;
+	background: #63cf0a;
+	font-weight: bold;
+	color: black;
+	border: 0 none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+	font-family: 'Quicksand', sans-serif;
+	box-shadow: 0rem 0.1875rem 0.375rem black;
+}
+
+.btn-submit:hover {
+	box-shadow: 0 0 0 3px #539c17;
+}
+
+.btn-submit:focus {
+	box-shadow: 0 0 0 3px #539c17;
+}
+
+.select-container select {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 80%;
+	box-sizing: border-box;
+	font-family: 'quicksand', sans-serif;
+	color: #2c3e50;
+	font-size: 13px;
+}

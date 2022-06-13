@@ -1,0 +1,5 @@
+.container-filterClear {
+	display: flex;
+	justify-content: center;
+	padding-left: 1rem;
+}

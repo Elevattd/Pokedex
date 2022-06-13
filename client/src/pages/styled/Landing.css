@@ -1,0 +1,44 @@
+.landing-container {
+	background: #d7253d;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+.mid-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 3rem;
+}
+
+.landing-banner img {
+	width: 35rem;
+	padding-top: 1rem;
+}
+
+.welcome-btn img {
+	margin-top: 20px;
+	width: 10rem;
+}
+.welcome-btn:hover {
+	color: white;
+	position: relative;
+	top: 10px;
+	box-shadow: none;
+}
+
+.landing-footer {
+	display: flex;
+	align-items: center;
+}
+
+.social-media {
+	display: flex;
+
+	justify-content: flex-end;
+
+	padding-right: 4rem;
+
+	align-items: flex-end;
+	margin-top: 70px;
+}

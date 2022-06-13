@@ -1,0 +1,14 @@
+.img-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40;
+}
+.img-container img {
+	padding-top: 1.3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 45%;
+}

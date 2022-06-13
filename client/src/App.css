@@ -1,0 +1,13 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.app-container {
+	/* background-color: #dd8b59; */
+	background-size: cover;
+	background-image: url(./assets/images/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}

@@ -1,0 +1,23 @@
+.spinner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0px 30px;
+	min-height: cal(100vh - 96px);
+	margin-top: 8rem;
+	/* background-image: url(../../assets/images/background.png); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 50%;
+}
+
+.loading {
+	font-size: 1em;
+	max-height: 200px;
+	font-weight: bold;
+	margin-top: 30px;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 2px;
+}

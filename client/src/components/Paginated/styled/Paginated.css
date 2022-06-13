@@ -1,0 +1,28 @@
+.paginate-container {
+	display: flex;
+	justify-content: center;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.paginate-container button {
+	padding: 10px 18px;
+	background-color: #81c1df;
+	color: white;
+	cursor: pointer;
+	border-radius: 9px;
+	font-size: 15px;
+	font-family: 'quicksand', sans-serif;
+}
+
+.paginate-container label {
+	color: black;
+	font-size: large;
+	font-weight: bold;
+	margin: 0 10px;
+	text-decoration: underline;
+	font-family: 'quicksand', sans-serif;
+}
+
+.btn-number:focus {
+	background-color: #1d6dd0;
+}
