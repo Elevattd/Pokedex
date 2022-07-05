@@ -30,6 +30,13 @@ El contenido de `client` fue creado usando: Create React App.
 - Filtrarlos / Ordenarlos
 - Crear nuevos pokemons
 
+##### Intrucciones para descargar/correr el proyecto:
+
+git clone : https://github.com/Elevattd/Pokedex.git
+
+- Dentro de la consola, ir a client/ y hacer npm install -> npm start
+- Dentro de la consola, ir a api / y hacer npm install -> npm start
+
 ##### Contacto:
 
 -marianoo.14.md@gmail.com
